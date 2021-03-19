@@ -2,35 +2,94 @@
 
 * Karakterer
 
-** Arun
+** Legionen
 
-+ Doktor/lege
+*** Shreya
 
-** Maleksei
+ + En av de Utvalgte
 
-** Theonin
+*** Arun
 
-+ Fikk en kikkert av [[Topaz]].
-+ Irriterer seg over [[Maleksei][Maleksei]].
+ + Doktor/lege
 
-** Topaz
+*** Maleksei
 
-+ Ga en kikkert til [[Theonin][Theonin]], et minne fra hjemlandet.
+ + Kranglet med [[Theonin][Theonin]], som ble irritert.
 
-* Fredag 5. februar
+*** Theonin
 
-+ Legionen krysset et stykke unna Karlsburg en bro.
-+ Spesialister snek seg ned til broen med hensikt å sprenge broen og
-  sinke de vandøde.
-+ [[Arun][Arun]] valgte å krysse vannet, under broen.
-+ Oppdraget var en suksess, men det var på hengende håret: [[Maleksei][Maleksei]],
-  [[Arun][Arun]] og [[Topaz][Topaz]] Dancing Sky havnet i vannet med en rekke vandøde
-  følgende etter.
-+ [[Theonin][Theonin]] holdt seg et stykke unna, og holdt utkikk over hele
-  området. Med en kikkert han fikk av [[Topaz][Topaz]] Dancing Sky fikk han sett
-  at ladningen var klar, og gitt signal om at kysten var klar. Han løp
-  så ned til broen, og fyrte av en pil mot en sårbar del. Pilen traff
-  på mirakuløst vis direkte og fikk satt broen ut av spill.
+ + Fikk en kikkert av [[Topaz][Topaz]].
+ + Irriterer seg over [[Maleksei][Maleksei]].
 
-* Fredag 19 mars
+*** Topaz
 
+ + Ga en kikkert til [[Theonin][Theonin]], et minne fra hjemlandet.
+
+*** Rashu Pakshi
+
+ + Kommandør
+
+*** Mana
+
+ + Kvartermester
+
+*** Marskalk
+
+ + Marskalk
+
+*** Anton
+
+ + Krøkiker
+
+** Blight
+
+*** Doktoren
+
++ Det ryktes at [[Doktoren][Doktoren]] var en vandød som fant tilbake sitt intellekt
+  og selv, etter å ha blitt vendt om. Doktoren er kjent for sine
+  grusomme eksperimenter.
+
+* Lokasjoner
+
+** Tigeria
+
++ Elv
++ Legionen unnslapp de vandøde ved å sabotere en bro som gikk over
+  elven.
+
+* Økter
+
+** 5. februar
+
+ + Legionen krysset et stykke unna Karlsburg en bro.
+ + Spesialister snek seg ned til broen med hensikt å sprenge broen og
+   sinke de vandøde.
+ + [[Arun][Arun]] valgte å krysse vannet, under broen.
+ + Oppdraget var en suksess, men det var på hengende håret: [[Maleksei][Maleksei]],
+   [[Arun][Arun]] og [[Topaz][Topaz]] Dancing Sky havnet i vannet med en rekke vandøde
+   følgende etter.
+ + [[Theonin][Theonin]] holdt seg et stykke unna, og holdt utkikk over hele
+   området. Med en kikkert han fikk av [[Topaz][Topaz]] Dancing Sky fikk han sett
+   at ladningen var klar, og gitt signal om at kysten var klar. Han løp
+   så ned til broen, og fyrte av en pil mot en sårbar del. Pilen traff
+   på mirakuløst vis direkte og fikk satt broen ut av spill.
+
+** 19 mars
+
++ Legionen har befestet seg på østsiden av elva [[Tigeria][Tigeria]].
++ Alle venter spent på [[Shreya][Shreya]], som forsvant litt før spesialistene dro
+  ut på sabotasjeoppdraget.
++ Soldatene er spente, tause og engstelige.
++ [[Shreya][Shreya]] synes plutselig, bærende på en bylt. [[Shreya][Shreya]] skuer på
+  nybegynnerne med et blikk som en jeger. Responsen er ærefrykt,
+  henførthet uforstand, sinne.
++ Det viser seg at [[Shreya][Shreya]] bærer på en av Blighters kreaturer. En kråke
+  -- [[Doktoren][Doktoren]]. Hun etterlater seg [[Doktoren][Doktorens]] levninger, og forlater
+  dem.
++ [[Arun][Arun]] oppdager en sort vekst som siver inn i armen. Han sover, og
+  drømmer om en hvit kråke som faller om. Det slutter å pirke i
+  såret. Det viser seg å være [[Shreya][Shreyas]] gjerning som leger ham for
+  korrupsjonen i armen.
++ Det blir fest. Mana kaller [[Arun][Arun]] for en helt, for dåden han gjorde
+  under sabotasjen av broen over [[Tigeria][Tigeria]]. Aruns brukkede arm blir
+  leget, på bekostning av Fred.
