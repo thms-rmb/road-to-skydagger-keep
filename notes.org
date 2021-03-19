@@ -101,14 +101,14 @@
 
 ** The Contessa
 
-+ [[Shreya]]
-+ [[Maleksei]] (Eirik)
-+ [[Theonin]] (Espen)
++ [[Shreya][Shreya]]
++ [[Maleksei][Maleksei]] (Eirik)
++ [[Theonin][Theonin]] (Espen)
 + Ember Wolves (Thomas)
 + Shattered Lions (Mikke)
 
 ** The Crow's Nest
 
-+ [[Topaz]]
-+ [[Arun]]
++ [[Topaz][Topaz]]
++ [[Arun][Arun]]
 + Ghost Owls
