@@ -41,7 +41,7 @@
 
  + Krøkiker
 
-** Blight
+** Blighter
 
 *** Doktoren
 
@@ -83,7 +83,7 @@
 + [[Shreya][Shreya]] synes plutselig, bærende på en bylt. [[Shreya][Shreya]] skuer på
   nybegynnerne med et blikk som en jeger. Responsen er ærefrykt,
   henførthet uforstand, sinne.
-+ Det viser seg at [[Shreya][Shreya]] bærer på en av Blighters kreaturer. En kråke
++ Det viser seg at [[Shreya][Shreya]] bærer på en av [[Blighter][Blighter]] kreaturer. En kråke
   -- [[Doktoren][Doktoren]]. Hun etterlater seg [[Doktoren][Doktorens]] levninger, og forlater
   dem.
 + [[Arun][Arun]] oppdager en sort vekst som siver inn i armen. Han sover, og
