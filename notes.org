@@ -74,7 +74,7 @@
    så ned til broen, og fyrte av en pil mot en sårbar del. Pilen traff
    på mirakuløst vis direkte og fikk satt broen ut av spill.
 
-** 19 mars
+** 19. mars
 
 + Legionen har befestet seg på østsiden av elva [[Tigeria][Tigeria]].
 + Alle venter spent på [[Shreya][Shreya]], som forsvant litt før spesialistene dro
@@ -97,9 +97,17 @@
   rester av våpen og katapulter. Vestfronten fungerer som et godt sted
   å hvile før ferden går videre til Plainsworth.
 
+** 9. april
+
++ Arun blir spurt om å bli med på oppdraget [[Grevinnen][Grevinnen]], og melder
+  seg med én gang. Han blir fortalt at planen er å dra om et par timer.
++ Shreya har reist seg opp og stirrer ut mot horisonten, etter at
+  oppdragene har blitt valgt ut. Hun sier, «nå». Arun, som ikke har
+  klart å bli med i tide, velger å bli med på oppdraget [[Kråkens Rede][Kråkens Rede]] isteden.
+
 * Oppdrag
 
-** The Contessa
+** Grevinnen
 
 + [[Shreya][Shreya]]
 + [[Maleksei][Maleksei]] (Eirik)
@@ -107,7 +115,47 @@
 + Ember Wolves (Thomas)
 + Shattered Lions (Mikke)
 
-** The Crow's Nest
++ Oppdraget tar gruppen inn mot en landsby langs elven Tigeria,
+  gjennom hovedsakelig skog og vegetasjon.
++ Gruppen nærmer seg landsbyen, og Shreya tar brått fingeren opp mot
+  munnen og ser på Theonin. Det høres bjeff, men ikke hundeaktig --
+  noe som virker menneskelig. Shreya mener at noen må lede dem unna,
+  de har ikke tid til et slag her. Rekrutt Oxana Sanzavicha blir valgt
+  ut.
++ Oxana skader seg og trekker frem blod, spytter opp i luften og
+  prøver å lokke dem. Lyden av bjeff blir tydeligere, og det er klart
+  at de nærmer seg raskt.
++ På en liten høyde oppdager Oxana at hun er omringet av mennesker,
+  som alle står på på fire -- som dyr. De skriker, og Oxana faller
+  ned, men tar tak i et tre på hengende håret.
++ Ember Wolves holder på å bryte rekkene, men Maleksei irettesetter
+  dem med en tale. Oxana må ofres, uten at Ember Wolves får lov til å
+  prøve å redde henne.
++ Gruppen ser så landsbyen, og Theonin bruker en kikkert til å se at
+  noe er alvorlig galt med innbyggerne -- de er alle blitt
+  gjennomboret av små, sylskarpe glassbiter.
++ Shreya feier vekk kommentarer om at det muligens er en felle, og
+  hopper ned en høyde før hun beveger seg i retning landsbyen.
++ Maleksei har fått vite at gruppen _må_ redde Grevinnen, koste hva
+  det koste vil. Blant de vandøde skal de se etter riddere, som holder
+  Grevinnen. Shreya løper uforsvalig inn blant de vandøde.
++ Maleksei havner i skvis mellom en ridder i sort rustning, og
+  vandøde, over elven midt i byen. Boran forsøker å få med seg resten
+  av rekruttene i Ember Wolves, men blir fanget av en vandød med
+  glasskniver boret inn i kroppen.
++ Boran, en rekrutt, forsøker å bevege resten av Ember Wolves til å
+  komme Maleksei til unsetning. Talen faller ikke i smak, og mens
+  Boran alene avanserer mot Maleksei blir han grepet fatt i av en
+  vandød med glasskniver boret inn i kroppen. En av knivene stikker
+  inn i leggen, og blod fosser ut. Boran, drevet til vanvidd av
+  stress, mister fatningen og slår mot den vandøde, hjelpesløs. Han
+  dør, omfavnet av den livsfarlige vandøde.
++ Oxana faller ned fra treet, men er på beina. Hun forsøker å forsvare
+  seg fra de vandøde, men blir etterhvert overmannet. En kvinne,
+  bærende på en sort langbue, nærmer seg åstedet og ser ned på Oxanas
+  rester. Hun setter foten ned på restene, og går videre.
+
+** Kråkens Rede
 
 + [[Topaz][Topaz]]
 + [[Arun][Arun]]
