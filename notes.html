@@ -3,12 +3,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-06-04 Fri 21:50 -->
+<!-- 2021-06-18 Fri 18:11 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Band of Blades – The Road to Skydagger Keep</title>
 <meta name="generator" content="Org mode" />
-<meta name="author" content="DESKTOP-3E7PGEE" />
+<meta name="author" content="Thomas Rambø" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
   .title  { text-align: center;
@@ -40,7 +40,7 @@
   }
   pre.src {
     position: relative;
-    overflow: visible;
+    overflow: auto;
     padding-top: 1.2em;
   }
   pre.src:before {
@@ -52,7 +52,7 @@
     padding: 3px;
     border: 1px solid black;
   }
-  pre.src:hover:before { display: inline;}
+  pre.src:hover:before { display: inline; margin-top: 14px;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
@@ -161,6 +161,19 @@
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
   .inlinetask {
     padding: 10px;
     border: 2px solid gray;
@@ -181,50 +194,26 @@
   /*]]>*/-->
 </style>
 <script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2019 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
 <!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
 </script>
 </head>
 <body>
@@ -234,72 +223,72 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org26586ba">1. Karakterer</a>
+<li><a href="#org731fdd1">1. Karakterer</a>
 <ul>
-<li><a href="#org8cc78ee">1.1. Legionen</a>
+<li><a href="#orgfaa52c2">1.1. Legionen</a>
 <ul>
-<li><a href="#orge3f9ad9">1.1.1. Shreya</a></li>
-<li><a href="#org81e0774">1.1.2. Arun</a></li>
-<li><a href="#org88c1aab">1.1.3. Maleksei</a></li>
-<li><a href="#orge9120a5">1.1.4. Theonin</a></li>
-<li><a href="#org014a67d">1.1.5. Topaz</a></li>
-<li><a href="#org36107b4">1.1.6. Rashu Pakshi</a></li>
-<li><a href="#orgc2afe6f">1.1.7. Mana</a></li>
-<li><a href="#orgfc87d98">1.1.8. Marskalk</a></li>
-<li><a href="#org12db8c3">1.1.9. Anton</a></li>
+<li><a href="#org7ad267c">1.1.1. Shreya</a></li>
+<li><a href="#org71056cb">1.1.2. Arun</a></li>
+<li><a href="#org08b9808">1.1.3. Maleksei</a></li>
+<li><a href="#orged49bae">1.1.4. Theonin</a></li>
+<li><a href="#org6667de2">1.1.5. Topaz</a></li>
+<li><a href="#org1dc49ff">1.1.6. Rashu Pakshi</a></li>
+<li><a href="#orgd9ba8bb">1.1.7. Mana</a></li>
+<li><a href="#orga6f188b">1.1.8. Marskalk</a></li>
+<li><a href="#orgbc9a99f">1.1.9. Anton</a></li>
 </ul>
 </li>
-<li><a href="#orgf9888ce">1.2. Blighter</a>
+<li><a href="#orgf4dbfef">1.2. Blighter</a>
 <ul>
-<li><a href="#orgcff1246">1.2.1. Doktoren</a></li>
+<li><a href="#org9c4a886">1.2.1. Doktoren</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org530f82b">2. Lokasjoner</a>
+<li><a href="#org0624ef5">2. Lokasjoner</a>
 <ul>
-<li><a href="#orgd7e554a">2.1. Tigeria</a></li>
+<li><a href="#orgfc0a264">2.1. Tigeria</a></li>
 </ul>
 </li>
-<li><a href="#org24b89ff">3. Økter</a>
+<li><a href="#org7c5e0b2">3. Økter</a>
 <ul>
-<li><a href="#orgdab904b">3.1. 5. februar</a></li>
-<li><a href="#orgbdf56be">3.2. 19. mars</a></li>
-<li><a href="#org58f1a55">3.3. 9. april</a></li>
-<li><a href="#org02d6fce">3.4. 16. april</a></li>
-<li><a href="#org2043772">3.5. 23. april</a></li>
-<li><a href="#org1e6cb69">3.6. 7. mai</a></li>
-<li><a href="#org1224cf3">3.7. 21. mai</a></li>
-<li><a href="#org9ebec5d">3.8. 28. mai</a></li>
-<li><a href="#org874244b">3.9. 4. juni</a></li>
+<li><a href="#org48a4cac">3.1. 5. februar</a></li>
+<li><a href="#org2959e18">3.2. 19. mars</a></li>
+<li><a href="#org1df052b">3.3. 9. april</a></li>
+<li><a href="#org9b9a581">3.4. 16. april</a></li>
+<li><a href="#org706497b">3.5. 23. april</a></li>
+<li><a href="#orgb38400f">3.6. 7. mai</a></li>
+<li><a href="#org6de6b0f">3.7. 21. mai</a></li>
+<li><a href="#org6a2959c">3.8. 28. mai</a></li>
+<li><a href="#orge8c8770">3.9. 4. juni</a></li>
 </ul>
 </li>
-<li><a href="#org4339fe1">4. Oppdrag</a>
+<li><a href="#orgc59769c">4. Oppdrag</a>
 <ul>
-<li><a href="#orge12382c">4.1. Grevinnen</a></li>
-<li><a href="#orgb533ea7">4.2. Kråkens Rede</a></li>
-<li><a href="#org473b0ee">4.3. Oppdraget for å hente inn Isfuglen (Kodenavn Isfugl)</a></li>
-<li><a href="#orgd0bcc69">4.4. Garossi Herregård (Operasjon Huspass)</a></li>
+<li><a href="#org5e9ac76">4.1. Grevinnen</a></li>
+<li><a href="#org45faa15">4.2. Kråkens Rede</a></li>
+<li><a href="#org4319e9a">4.3. Oppdraget for å hente inn Isfuglen (Kodenavn Isfugl)</a></li>
+<li><a href="#org991c399">4.4. Garossi Herregård (Operasjon Huspass)</a></li>
 </ul>
 </li>
-<li><a href="#org12de461">5. Scarlets Drøm</a></li>
-<li><a href="#org795a6b2">6. Hesteherren Nettars Hester</a></li>
-<li><a href="#org5ad6bc5">7. Shreyas felle</a></li>
-<li><a href="#org2527818">8. Urverksmonsteret</a></li>
+<li><a href="#orge468906">5. Scarlets Drøm</a></li>
+<li><a href="#orgd22ef09">6. Hesteherren Nettars Hester</a></li>
+<li><a href="#org2332720">7. Shreyas felle</a></li>
+<li><a href="#org3673599">8. Urverksmonsteret</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org26586ba" class="outline-2">
-<h2 id="org26586ba"><span class="section-number-2">1</span> Karakterer</h2>
+<div id="outline-container-org731fdd1" class="outline-2">
+<h2 id="org731fdd1"><span class="section-number-2">1</span> Karakterer</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-org8cc78ee" class="outline-3">
-<h3 id="org8cc78ee"><span class="section-number-3">1.1</span> Legionen</h3>
+<div id="outline-container-orgfaa52c2" class="outline-3">
+<h3 id="orgfaa52c2"><span class="section-number-3">1.1</span> Legionen</h3>
 <div class="outline-text-3" id="text-1-1">
 </div>
-<div id="outline-container-orge3f9ad9" class="outline-4">
-<h4 id="orge3f9ad9"><span class="section-number-4">1.1.1</span> Shreya</h4>
+<div id="outline-container-org7ad267c" class="outline-4">
+<h4 id="org7ad267c"><span class="section-number-4">1.1.1</span> Shreya</h4>
 <div class="outline-text-4" id="text-1-1-1">
 <ul class="org-ul">
 <li>En av de Utvalgte</li>
@@ -307,8 +296,8 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-org81e0774" class="outline-4">
-<h4 id="org81e0774"><span class="section-number-4">1.1.2</span> Arun</h4>
+<div id="outline-container-org71056cb" class="outline-4">
+<h4 id="org71056cb"><span class="section-number-4">1.1.2</span> Arun</h4>
 <div class="outline-text-4" id="text-1-1-2">
 <ul class="org-ul">
 <li>Doktor/lege</li>
@@ -316,36 +305,36 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-org88c1aab" class="outline-4">
-<h4 id="org88c1aab"><span class="section-number-4">1.1.3</span> Maleksei</h4>
+<div id="outline-container-org08b9808" class="outline-4">
+<h4 id="org08b9808"><span class="section-number-4">1.1.3</span> Maleksei</h4>
 <div class="outline-text-4" id="text-1-1-3">
 <ul class="org-ul">
-<li>Kranglet med <a href="#orge9120a5">Theonin</a>, som ble irritert.</li>
+<li>Kranglet med <a href="#orged49bae">Theonin</a>, som ble irritert.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orge9120a5" class="outline-4">
-<h4 id="orge9120a5"><span class="section-number-4">1.1.4</span> Theonin</h4>
+<div id="outline-container-orged49bae" class="outline-4">
+<h4 id="orged49bae"><span class="section-number-4">1.1.4</span> Theonin</h4>
 <div class="outline-text-4" id="text-1-1-4">
 <ul class="org-ul">
-<li>Fikk en kikkert av <a href="#org014a67d">Topaz</a>.</li>
-<li>Irriterer seg over <a href="#org88c1aab">Maleksei</a>.</li>
+<li>Fikk en kikkert av <a href="#org6667de2">Topaz</a>.</li>
+<li>Irriterer seg over <a href="#org08b9808">Maleksei</a>.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org014a67d" class="outline-4">
-<h4 id="org014a67d"><span class="section-number-4">1.1.5</span> Topaz</h4>
+<div id="outline-container-org6667de2" class="outline-4">
+<h4 id="org6667de2"><span class="section-number-4">1.1.5</span> Topaz</h4>
 <div class="outline-text-4" id="text-1-1-5">
 <ul class="org-ul">
-<li>Ga en kikkert til <a href="#orge9120a5">Theonin</a>, et minne fra hjemlandet.</li>
+<li>Ga en kikkert til <a href="#orged49bae">Theonin</a>, et minne fra hjemlandet.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org36107b4" class="outline-4">
-<h4 id="org36107b4"><span class="section-number-4">1.1.6</span> Rashu Pakshi</h4>
+<div id="outline-container-org1dc49ff" class="outline-4">
+<h4 id="org1dc49ff"><span class="section-number-4">1.1.6</span> Rashu Pakshi</h4>
 <div class="outline-text-4" id="text-1-1-6">
 <ul class="org-ul">
 <li>Kommandør</li>
@@ -353,8 +342,8 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-orgc2afe6f" class="outline-4">
-<h4 id="orgc2afe6f"><span class="section-number-4">1.1.7</span> Mana</h4>
+<div id="outline-container-orgd9ba8bb" class="outline-4">
+<h4 id="orgd9ba8bb"><span class="section-number-4">1.1.7</span> Mana</h4>
 <div class="outline-text-4" id="text-1-1-7">
 <ul class="org-ul">
 <li>Kvartermester</li>
@@ -362,8 +351,8 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-orgfc87d98" class="outline-4">
-<h4 id="orgfc87d98"><span class="section-number-4">1.1.8</span> Marskalk</h4>
+<div id="outline-container-orga6f188b" class="outline-4">
+<h4 id="orga6f188b"><span class="section-number-4">1.1.8</span> Marskalk</h4>
 <div class="outline-text-4" id="text-1-1-8">
 <ul class="org-ul">
 <li>Marskalk</li>
@@ -371,8 +360,8 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-org12db8c3" class="outline-4">
-<h4 id="org12db8c3"><span class="section-number-4">1.1.9</span> Anton</h4>
+<div id="outline-container-orgbc9a99f" class="outline-4">
+<h4 id="orgbc9a99f"><span class="section-number-4">1.1.9</span> Anton</h4>
 <div class="outline-text-4" id="text-1-1-9">
 <ul class="org-ul">
 <li>Krøkiker</li>
@@ -381,15 +370,15 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-orgf9888ce" class="outline-3">
-<h3 id="orgf9888ce"><span class="section-number-3">1.2</span> Blighter</h3>
+<div id="outline-container-orgf4dbfef" class="outline-3">
+<h3 id="orgf4dbfef"><span class="section-number-3">1.2</span> Blighter</h3>
 <div class="outline-text-3" id="text-1-2">
 </div>
-<div id="outline-container-orgcff1246" class="outline-4">
-<h4 id="orgcff1246"><span class="section-number-4">1.2.1</span> Doktoren</h4>
+<div id="outline-container-org9c4a886" class="outline-4">
+<h4 id="org9c4a886"><span class="section-number-4">1.2.1</span> Doktoren</h4>
 <div class="outline-text-4" id="text-1-2-1">
 <ul class="org-ul">
-<li>Det ryktes at <a href="#orgcff1246">Doktoren</a> var en vandød som fant tilbake sitt intellekt
+<li>Det ryktes at <a href="#org9c4a886">Doktoren</a> var en vandød som fant tilbake sitt intellekt
 og selv, etter å ha blitt vendt om. Doktoren er kjent for sine
 grusomme eksperimenter.</li>
 </ul>
@@ -398,12 +387,12 @@ grusomme eksperimenter.</li>
 </div>
 </div>
 
-<div id="outline-container-org530f82b" class="outline-2">
-<h2 id="org530f82b"><span class="section-number-2">2</span> Lokasjoner</h2>
+<div id="outline-container-org0624ef5" class="outline-2">
+<h2 id="org0624ef5"><span class="section-number-2">2</span> Lokasjoner</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-orgd7e554a" class="outline-3">
-<h3 id="orgd7e554a"><span class="section-number-3">2.1</span> Tigeria</h3>
+<div id="outline-container-orgfc0a264" class="outline-3">
+<h3 id="orgfc0a264"><span class="section-number-3">2.1</span> Tigeria</h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
 <li>Elv</li>
@@ -414,23 +403,23 @@ elven.</li>
 </div>
 </div>
 
-<div id="outline-container-org24b89ff" class="outline-2">
-<h2 id="org24b89ff"><span class="section-number-2">3</span> Økter</h2>
+<div id="outline-container-org7c5e0b2" class="outline-2">
+<h2 id="org7c5e0b2"><span class="section-number-2">3</span> Økter</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-orgdab904b" class="outline-3">
-<h3 id="orgdab904b"><span class="section-number-3">3.1</span> 5. februar</h3>
+<div id="outline-container-org48a4cac" class="outline-3">
+<h3 id="org48a4cac"><span class="section-number-3">3.1</span> 5. februar</h3>
 <div class="outline-text-3" id="text-3-1">
 <ul class="org-ul">
 <li>Legionen krysset et stykke unna Karlsburg en bro.</li>
 <li>Spesialister snek seg ned til broen med hensikt å sprenge broen og
 sinke de vandøde.</li>
-<li><a href="#org81e0774">Arun</a> valgte å krysse vannet, under broen.</li>
-<li>Oppdraget var en suksess, men det var på hengende håret: <a href="#org88c1aab">Maleksei</a>,
-<a href="#org81e0774">Arun</a> og <a href="#org014a67d">Topaz</a> Dancing Sky havnet i vannet med en rekke vandøde
+<li><a href="#org71056cb">Arun</a> valgte å krysse vannet, under broen.</li>
+<li>Oppdraget var en suksess, men det var på hengende håret: <a href="#org08b9808">Maleksei</a>,
+<a href="#org71056cb">Arun</a> og <a href="#org6667de2">Topaz</a> Dancing Sky havnet i vannet med en rekke vandøde
 følgende etter.</li>
-<li><a href="#orge9120a5">Theonin</a> holdt seg et stykke unna, og holdt utkikk over hele
-området. Med en kikkert han fikk av <a href="#org014a67d">Topaz</a> Dancing Sky fikk han sett
+<li><a href="#orged49bae">Theonin</a> holdt seg et stykke unna, og holdt utkikk over hele
+området. Med en kikkert han fikk av <a href="#org6667de2">Topaz</a> Dancing Sky fikk han sett
 at ladningen var klar, og gitt signal om at kysten var klar. Han løp
 så ned til broen, og fyrte av en pil mot en sårbar del. Pilen traff
 på mirakuløst vis direkte og fikk satt broen ut av spill.</li>
@@ -438,26 +427,26 @@ på mirakuløst vis direkte og fikk satt broen ut av spill.</li>
 </div>
 </div>
 
-<div id="outline-container-orgbdf56be" class="outline-3">
-<h3 id="orgbdf56be"><span class="section-number-3">3.2</span> 19. mars</h3>
+<div id="outline-container-org2959e18" class="outline-3">
+<h3 id="org2959e18"><span class="section-number-3">3.2</span> 19. mars</h3>
 <div class="outline-text-3" id="text-3-2">
 <ul class="org-ul">
-<li>Legionen har befestet seg på østsiden av elva <a href="#orgd7e554a">Tigeria</a>.</li>
-<li>Alle venter spent på <a href="#orge3f9ad9">Shreya</a>, som forsvant litt før spesialistene dro
+<li>Legionen har befestet seg på østsiden av elva <a href="#orgfc0a264">Tigeria</a>.</li>
+<li>Alle venter spent på <a href="#org7ad267c">Shreya</a>, som forsvant litt før spesialistene dro
 ut på sabotasjeoppdraget.</li>
 <li>Soldatene er spente, tause og engstelige.</li>
-<li><a href="#orge3f9ad9">Shreya</a> synes plutselig, bærende på en bylt. <a href="#orge3f9ad9">Shreya</a> skuer på
+<li><a href="#org7ad267c">Shreya</a> synes plutselig, bærende på en bylt. <a href="#org7ad267c">Shreya</a> skuer på
 nybegynnerne med et blikk som en jeger. Responsen er ærefrykt,
 henførthet uforstand, sinne.</li>
-<li>Det viser seg at <a href="#orge3f9ad9">Shreya</a> bærer på en av <a href="#orgf9888ce">Blighter</a> kreaturer. En kråke
-&#x2013; <a href="#orgcff1246">Doktoren</a>. Hun etterlater seg <a href="#orgcff1246">Doktorens</a> levninger, og forlater
+<li>Det viser seg at <a href="#org7ad267c">Shreya</a> bærer på en av <a href="#orgf4dbfef">Blighter</a> kreaturer. En kråke
+&#x2013; <a href="#org9c4a886">Doktoren</a>. Hun etterlater seg <a href="#org9c4a886">Doktorens</a> levninger, og forlater
 dem.</li>
-<li><a href="#org81e0774">Arun</a> oppdager en sort vekst som siver inn i armen. Han sover, og
+<li><a href="#org71056cb">Arun</a> oppdager en sort vekst som siver inn i armen. Han sover, og
 drømmer om en hvit kråke som faller om. Det slutter å pirke i
-såret. Det viser seg å være <a href="#orge3f9ad9">Shreyas</a> gjerning som leger ham for
+såret. Det viser seg å være <a href="#org7ad267c">Shreyas</a> gjerning som leger ham for
 korrupsjonen i armen.</li>
-<li>Det blir fest. Mana kaller <a href="#org81e0774">Arun</a> for en helt, for dåden han gjorde
-under sabotasjen av broen over <a href="#orgd7e554a">Tigeria</a>. Aruns brukkede arm blir
+<li>Det blir fest. Mana kaller <a href="#org71056cb">Arun</a> for en helt, for dåden han gjorde
+under sabotasjen av broen over <a href="#orgfc0a264">Tigeria</a>. Aruns brukkede arm blir
 leget, på bekostning av Fred.</li>
 <li>Legionen avanserer mot Vestfronten, hvor det brenner og det er
 rester av våpen og katapulter. Vestfronten fungerer som et godt sted
@@ -466,25 +455,25 @@ rester av våpen og katapulter. Vestfronten fungerer som et godt sted
 </div>
 </div>
 
-<div id="outline-container-org58f1a55" class="outline-3">
-<h3 id="org58f1a55"><span class="section-number-3">3.3</span> 9. april</h3>
+<div id="outline-container-org1df052b" class="outline-3">
+<h3 id="org1df052b"><span class="section-number-3">3.3</span> 9. april</h3>
 <div class="outline-text-3" id="text-3-3">
 <ul class="org-ul">
-<li>Arun blir spurt om å bli med på oppdraget <a href="#orge12382c">Grevinnen</a>, og melder
+<li>Arun blir spurt om å bli med på oppdraget <a href="#org5e9ac76">Grevinnen</a>, og melder
 seg med én gang. Han blir fortalt at planen er å dra om et par timer.</li>
 <li>Shreya har reist seg opp og stirrer ut mot horisonten, etter at
 oppdragene har blitt valgt ut. Hun sier, «nå». Arun, som ikke har
-klart å bli med i tide, velger å bli med på oppdraget <a href="#orgb533ea7">Kråkens Rede</a> isteden.</li>
+klart å bli med i tide, velger å bli med på oppdraget <a href="#org45faa15">Kråkens Rede</a> isteden.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org02d6fce" class="outline-3">
-<h3 id="org02d6fce"><span class="section-number-3">3.4</span> 16. april</h3>
+<div id="outline-container-org9b9a581" class="outline-3">
+<h3 id="org9b9a581"><span class="section-number-3">3.4</span> 16. april</h3>
 </div>
 
-<div id="outline-container-org2043772" class="outline-3">
-<h3 id="org2043772"><span class="section-number-3">3.5</span> 23. april</h3>
+<div id="outline-container-org706497b" class="outline-3">
+<h3 id="org706497b"><span class="section-number-3">3.5</span> 23. april</h3>
 <div class="outline-text-3" id="text-3-5">
 <ul class="org-ul">
 <li>En kveld oppdager Adisha Darhdi en lukt av de vandøde, og varsler
@@ -500,8 +489,8 @@ likbål. Sang og musikk følger med.</li>
 </div>
 </div>
 
-<div id="outline-container-org1e6cb69" class="outline-3">
-<h3 id="org1e6cb69"><span class="section-number-3">3.6</span> 7. mai</h3>
+<div id="outline-container-orgb38400f" class="outline-3">
+<h3 id="orgb38400f"><span class="section-number-3">3.6</span> 7. mai</h3>
 <div class="outline-text-3" id="text-3-6">
 <ul class="org-ul">
 <li>I et mer eller mindre falleferdig telt holder generalstaben
@@ -513,8 +502,8 @@ Topaz Dancing Sky &#x2013; sendes ut på oppdrag.</li>
 </div>
 </div>
 
-<div id="outline-container-org1224cf3" class="outline-3">
-<h3 id="org1224cf3"><span class="section-number-3">3.7</span> 21. mai</h3>
+<div id="outline-container-org6de6b0f" class="outline-3">
+<h3 id="org6de6b0f"><span class="section-number-3">3.7</span> 21. mai</h3>
 <div class="outline-text-3" id="text-3-7">
 <ul class="org-ul">
 <li>Det brenner i Plainsworth. Brannen sprer seg raskt, og byen står
@@ -559,8 +548,8 @@ rundt er preget av banditter.</li>
 </div>
 
 
-<div id="outline-container-org9ebec5d" class="outline-3">
-<h3 id="org9ebec5d"><span class="section-number-3">3.8</span> 28. mai</h3>
+<div id="outline-container-org6a2959c" class="outline-3">
+<h3 id="org6a2959c"><span class="section-number-3">3.8</span> 28. mai</h3>
 <div class="outline-text-3" id="text-3-8">
 <ul class="org-ul">
 <li>Intel-spørsmål:
@@ -584,8 +573,8 @@ rundt er preget av banditter.</li>
 </div>
 
 
-<div id="outline-container-org874244b" class="outline-3">
-<h3 id="org874244b"><span class="section-number-3">3.9</span> 4. juni</h3>
+<div id="outline-container-orge8c8770" class="outline-3">
+<h3 id="orge8c8770"><span class="section-number-3">3.9</span> 4. juni</h3>
 <div class="outline-text-3" id="text-3-9">
 <ul class="org-ul">
 <li>Star Vipers nekter å dra ut på et mindre rekognoseringsoppdrag. De
@@ -603,17 +592,17 @@ sine løfter til Star Vipers kjernefilosofi, "vi skinner i natten".</li>
 </div>
 </div>
 
-<div id="outline-container-org4339fe1" class="outline-2">
-<h2 id="org4339fe1"><span class="section-number-2">4</span> Oppdrag</h2>
+<div id="outline-container-orgc59769c" class="outline-2">
+<h2 id="orgc59769c"><span class="section-number-2">4</span> Oppdrag</h2>
 <div class="outline-text-2" id="text-4">
 </div>
-<div id="outline-container-orge12382c" class="outline-3">
-<h3 id="orge12382c"><span class="section-number-3">4.1</span> Grevinnen</h3>
+<div id="outline-container-org5e9ac76" class="outline-3">
+<h3 id="org5e9ac76"><span class="section-number-3">4.1</span> Grevinnen</h3>
 <div class="outline-text-3" id="text-4-1">
 <ul class="org-ul">
-<li><a href="#orge3f9ad9">Shreya</a></li>
-<li><a href="#org88c1aab">Maleksei</a> (Eirik)</li>
-<li><a href="#orge9120a5">Theonin</a> (Espen)</li>
+<li><a href="#org7ad267c">Shreya</a></li>
+<li><a href="#org08b9808">Maleksei</a> (Eirik)</li>
+<li><a href="#orged49bae">Theonin</a> (Espen)</li>
 <li>Ember Wolves (Thomas)</li>
 <li>Shattered Lions (Mikke)</li>
 
@@ -718,12 +707,12 @@ Shreyas kontroll. Pilen ble skutt av den sortkledde jegeren.</li>
 </div>
 
 
-<div id="outline-container-orgb533ea7" class="outline-3">
-<h3 id="orgb533ea7"><span class="section-number-3">4.2</span> Kråkens Rede</h3>
+<div id="outline-container-org45faa15" class="outline-3">
+<h3 id="org45faa15"><span class="section-number-3">4.2</span> Kråkens Rede</h3>
 <div class="outline-text-3" id="text-4-2">
 <ul class="org-ul">
-<li><a href="#org014a67d">Topaz</a></li>
-<li><a href="#org81e0774">Arun</a></li>
+<li><a href="#org6667de2">Topaz</a></li>
+<li><a href="#org71056cb">Arun</a></li>
 <li>Ghost Owls</li>
 
 <li>Gruppen rir raskt mot målet, og setter fra seg hestene et stykke
@@ -765,8 +754,8 @@ kuldefornemmelsene over.</li>
 </div>
 
 
-<div id="outline-container-org473b0ee" class="outline-3">
-<h3 id="org473b0ee"><span class="section-number-3">4.3</span> Oppdraget for å hente inn Isfuglen (Kodenavn Isfugl)</h3>
+<div id="outline-container-org4319e9a" class="outline-3">
+<h3 id="org4319e9a"><span class="section-number-3">4.3</span> Oppdraget for å hente inn Isfuglen (Kodenavn Isfugl)</h3>
 <div class="outline-text-3" id="text-4-3">
 <ul class="org-ul">
 <li>Grevinnen</li>
@@ -873,8 +862,8 @@ løftes fra Voyis og han blir bært tilbake til leiren.</li>
 </div>
 
 
-<div id="outline-container-orgd0bcc69" class="outline-3">
-<h3 id="orgd0bcc69"><span class="section-number-3">4.4</span> Garossi Herregård (Operasjon Huspass)</h3>
+<div id="outline-container-org991c399" class="outline-3">
+<h3 id="org991c399"><span class="section-number-3">4.4</span> Garossi Herregård (Operasjon Huspass)</h3>
 <div class="outline-text-3" id="text-4-4">
 <ul class="org-ul">
 <li>Adisha Darhdi</li>
@@ -894,8 +883,8 @@ gjort ende på.</li>
 </div>
 </div>
 
-<div id="outline-container-org12de461" class="outline-2">
-<h2 id="org12de461"><span class="section-number-2">5</span> Scarlets Drøm</h2>
+<div id="outline-container-orge468906" class="outline-2">
+<h2 id="orge468906"><span class="section-number-2">5</span> Scarlets Drøm</h2>
 <div class="outline-text-2" id="text-5">
 <ul class="org-ul">
 <li>Ember Wolves
@@ -956,8 +945,8 @@ dør. Alika løper helt i feil retning. Anton og Islanya kommer seg unna.</li>
 </div>
 </div>
 
-<div id="outline-container-org795a6b2" class="outline-2">
-<h2 id="org795a6b2"><span class="section-number-2">6</span> Hesteherren Nettars Hester</h2>
+<div id="outline-container-orgd22ef09" class="outline-2">
+<h2 id="orgd22ef09"><span class="section-number-2">6</span> Hesteherren Nettars Hester</h2>
 <div class="outline-text-2" id="text-6">
 <ul class="org-ul">
 <li>Adisha</li>
@@ -984,10 +973,48 @@ tilsynelatende blitt erstattet av hestebein! Victoria Carlhove synes
 </div>
 </div>
 
-<div id="outline-container-org5ad6bc5" class="outline-2">
-<h2 id="org5ad6bc5"><span class="section-number-2">7</span> Shreyas felle</h2>
+<div id="outline-container-org2332720" class="outline-2">
+<h2 id="org2332720"><span class="section-number-2">7</span> Shreyas felle</h2>
 <div class="outline-text-2" id="text-7">
 <ul class="org-ul">
+<li>Ryktet sprer seg i leiren om at Shreya er fredfull til sinns og klar
+for å dø. Dette er sant, men Shreya har ikke gitt opp helt enda og
+har fortsatt tro på at Topaz kan gjøre et mirakel.</li>
+<li>Ankommer tempelet som ligger på en kolle. Store statuer på hvert
+hjørne av tempelet. Eneste trygg vei inn gjennom dalen vest for
+tempelet. De vandøde er der allerede og har begynt å avansere gjennom
+dalen. En grotesk skapning klatrer opp på en stein og begynner å
+kommandere de vandøde.</li>
+<li>Legionen ligger i bakhold og venter på at Shreyas felle settes i
+spill. Voyis kjemper mot korrupsjonen i seg selv. Topaz gjør seg
+klar til å klatre opp fjellveggen for å komme seg opp til Shreya.</li>
+<li>Shreya står plutselig ved en av steinene og et enormt lys danner
+seg over tempelet. Statuen lyser opp og varmen treffer huden til
+alle som står i nærheten. Statuen begynner å gli ned mot munningen av
+dalen og knuser de vandøde som står der. Dette sperrer dalen, men det
+er et lite mellomrom i steinen. Beistet tvinger alle innover og kaster
+de som ikke kommer seg frem over steinen. Et nytt krakk og en ny 
+stein faller ned som sperrer de vandøde inne. Et regn av brennende
+busker faller ned i dalen og tenner det tørre gresset og de vandøde
+begynner å dø.</li>
+<li>Voyis maner opp soldatene til kamp og stormer fremover for å holde dem
+i dalen. De kommer raskt frem og scarlet og hennes lag hever riflene
+og skyter en salve med svartskudd inn i monsteret ved navn Wailer. Skuddene
+treffer, men eksplosjonene treffer og preller av. Wailer stormer mot Ember
+Wolves og kaster dem til siden. Princep Anton blir spidded på en metalltagg,
+Scarlet blir også spiddet på kroppen til Wailer, men er i live. Voyis kaster
+seg bakover og sverdet sitter fast i Wailer. Wailer går tilbake til å
+forsøke å heve sperringen, men isfuglen stormer på bakfra og stikker hen med
+en kniv.</li>
+<li>Samtidig forsøker Topaz å snike seg usett rundt flanken for å komme
+frem til fjellveggen. Det viser seg å være vanskelig, men hun forsøker
+allikevel. Men kråkene har dannet en speiderposisjon på flanken og hun
+klarer ikke å komme seg frem til veggen usett. Hun må ta en lang vei rundt.
+Begynner å klatre opp veggen og faller ned, skader seg. Tiden går og det har
+allerede kommet noen råtnende opp til platået</li>
+<li>Voyis plasserer en bombe inne i Wailer, men blir holdt fast idet han forsøker
+å komme seg unna. Blir tatt i eksplosjonen og påvirket av korrupsjonen.</li>
+
 <li>Topaz Dancing Sky</li>
 <li>Voyis "Isfuglen" Kariyevich</li>
 <li>Ember Wolves</li>
@@ -996,8 +1023,8 @@ tilsynelatende blitt erstattet av hestebein! Victoria Carlhove synes
 </div>
 </div>
 
-<div id="outline-container-org2527818" class="outline-2">
-<h2 id="org2527818"><span class="section-number-2">8</span> Urverksmonsteret</h2>
+<div id="outline-container-org3673599" class="outline-2">
+<h2 id="org3673599"><span class="section-number-2">8</span> Urverksmonsteret</h2>
 <div class="outline-text-2" id="text-8">
 <ul class="org-ul">
 <li>Theonin</li>
@@ -1007,9 +1034,9 @@ tilsynelatende blitt erstattet av hestebein! Victoria Carlhove synes
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="author">Author: DESKTOP-3E7PGEE</p>
-<p class="date">Created: 2021-06-04 Fri 21:50</p>
-<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+<p class="author">Author: Thomas Rambø</p>
+<p class="date">Created: 2021-06-18 Fri 18:11</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
 </html>
